@@ -1,0 +1,7 @@
+<h1>Stocks</h1>
+
+<input id="filter" type="text" [formControl]="filter" placeholder="Filter stocks..." value="">
+<span id="filtered">{{(filteredStocks$ | async)?.length}}</span> / <span id="total">{{(stocks$|async).length}}</span>
+<div *ngFor="let stock of (filteredStocks$ | async)">
+  <app-stock-info [stock]="stock"></app-stock-info>
+</div>
