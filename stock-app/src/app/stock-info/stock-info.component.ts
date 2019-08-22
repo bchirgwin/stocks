@@ -14,4 +14,7 @@ export class StockInfoComponent implements OnInit {
   ngOnInit() {
   }
 
+  onClick() {
+    console.log ('I have been clicked', this.stock)
+  }
 }

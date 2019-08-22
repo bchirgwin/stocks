@@ -1,3 +1,3 @@
-<div class="panel">
-  <p class="symbol">{{stock.symbol | lowercase}} <span class="name">{{stock.name}}</span></p>
+<div class="panel" (click)="onClick()">
+  <p class="symbol">{{stock.symbol}} <span class="name">{{stock.name}}</span> <span [ngClass]="{'red': stock.closing < 15, 'black': stock.closing>=15}"> {{stock.closing|number:'0.2-4'}}</span></p>
 </div>
