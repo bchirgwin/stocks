@@ -12,4 +12,7 @@ export class StocksService {
     return of(stocks);
   }
 
+//  http://www.nasdaq.com/screening/companies-by-industry.aspx?exchange=NASDAQ&render=download
+//  http://www.nasdaq.com/screening/companies-by-industry.aspx?exchange=NYSE&render=download
+//  http://www.asx.com.au/asx/research/ASXListedCompanies.csv
 }
