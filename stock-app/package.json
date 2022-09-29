@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
-    "d3": "^5.11.0",
+    "d3": "^7.6.1",
     "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
     "zone.js": "^0.10.2"
